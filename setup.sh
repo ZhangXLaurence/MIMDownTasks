@@ -12,15 +12,15 @@ pip install -v -e /MIMDownTasks/mim_seg/mmsegmentation
 # 2. Setup detection code, based on Detectron2
 
 # 2.1 Install Detectron2
-pip install -v -e /MIMDownTasks/mim__det/detectron2
+# pip install -v -e /MIMDownTasks/mim__det/detectron2
 # python -m pip install -e detectron2
 
 
 # 3 Setup soft link for ADE20K and coco dataset
-cd /dev/shm
-mkdir data; mkdir data/ade;
-wget http://data.csail.mit.edu/places/ADEchallenge/ADEChallengeData2016.zip
-unzip ADEChallengeData2016.zip -d /dev/shm/data/ade/ADEChallengeData2016
+# cd /dev/shm
+# mkdir data; mkdir data/ade;
+# wget http://data.csail.mit.edu/places/ADEchallenge/ADEChallengeData2016.zip
+# unzip ADEChallengeData2016.zip -d /dev/shm/data/ade/ADEChallengeData2016
 # ln -s /dev/shm/ADEChallengeData2016 /MIMDownTasks/mim_seg/mmsegmentation/data/ade/ADEChallengeData2016
 
 # 3.2 setup coco data under /data
