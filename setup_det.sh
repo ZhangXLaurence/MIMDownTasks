@@ -24,5 +24,5 @@ pip install -v -e /MIMDownTasks/mim_det/detectron2
 # ln -s /dev/shm/ADEChallengeData2016 /MIMDownTasks/mim_seg/mmsegmentation/data/ade/ADEChallengeData2016
 
 # 3.2 setup coco data under /data
-export DETECTRON2_DATASETS=/dev/shm/data
+# export DETECTRON2_DATASETS=/dev/shm/data
 
